@@ -1,2 +1,2 @@
 # GUVI-Project-1
-This Data Analtics Projject is the part of my Internship at GUVI HCL
+This Data Analytics Project is the part of my Internship at GUVI HCL
