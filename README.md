@@ -1,31 +1,108 @@
 🌍 GUVI Project 1 – Global Sales Performance Dashboard
-This Data Analytics project was completed as part of my internship at GUVI – HCL.
-In this project, I created an interactive Global Sales Dashboard for a multinational retail store that operates on a large scale. The primary objective of this dashboard is to enable stakeholders to gain actionable insights into key metrics such as:
+Internship Project | GUVI x HCL | Data Analytics
 
--Total Sales
--Profit
--Average Order Value
--Sales Trends Over Time
--Regional Performance
+This project showcases a comprehensive Global Sales Performance Dashboard created during my internship at GUVI – HCL. The dashboard is designed for a multinational retail company to help stakeholders make data-driven business decisions through advanced data visualization and trend analysis.
 
-By analyzing these metrics, decision-makers can identify areas for improvement, track business performance across different continents, and make data-driven decisions.
+🎯 Objective
+The primary objective of this project is to enable stakeholders—such as sales managers, regional heads, and executives—to:
 
-The dashboard uses a variety of visualization techniques, including:
--Map Charts
--Line Charts
--Pie Charts
-- Bar Charts
-These have been carefully selected to represent data in the most intuitive and insightful manner.
+Monitor total sales and profitability
 
-📁 Repository Contents
-1. Tableau Dashboard File -
-This is the packaged .twbx file containing all visuals and dashboard elements developed during the project.To open and interact with it, Tableau Desktop must be installed on your system.A public version will be added soon for those without Tableau Desktop.
+Analyze sales trends across different years and regions
 
-2. Dataset -
-The dataset serves as the backbone of this project.Initially, the data was unstructured and messy. I cleaned and transformed it using Excel by: Removing duplicates. Handling null values. Creating calculated columns as per dashboard requirements. The cleaned dataset is provided as a ZIP folder due to its large size.
+Evaluate Average Order Value (AOV)
 
-3. Project Presentation -
-A PowerPoint presentation that provides a step-by-step breakdown of the project. Includes annotated screenshots explaining how I developed the dashboard and enhanced my understanding of data analytics.
+Identify top-performing regions and product categories
 
-4. Dashboard Preview (PDF) -
-A static PDF version of the final dashboard for reference. Useful if you're unable to open the Tableau file.
+Detect growth opportunities and underperforming areas
+
+📊 Key Features
+The dashboard leverages powerful, interactive visualizations to bring clarity and insight from complex datasets:
+
+🗺️ Map Charts – Geographic comparison of sales and profits across continents and countries
+
+📈 Line Charts – Visualize sales trends over multiple years
+
+📊 Bar & Column Charts – Breakdown of sales by category, region, or year
+
+🥧 Pie Charts – Share of each category or region in overall performance
+
+🎯 KPIs (Key Performance Indicators) – Quick-glance metrics for decision-making
+
+🔍 Interactive Filters – Dynamic filtering by year, category, region, etc.
+
+🛠️ Tools & Technologies
+Tableau Desktop – For building the interactive dashboard
+
+Microsoft Excel – For data cleaning, transformation, and preprocessing
+
+PowerPoint – For project presentation and storytelling
+
+PDF – For static reference of the dashboard
+
+📁 Repository Structure
+python
+Copy
+Edit
+Global-Sales-Dashboard/
+│
+├── 📊 Dashboard/
+│   └── GlobalSalesDashboard.twbx     # Tableau Packaged Workbook (Main File)
+│
+├── 📂 Dataset/
+│   └── Cleaned_Sales_Data.zip        # Cleaned Excel Dataset (ZIP)
+│
+├── 📽️ Presentation/
+│   └── Project_Presentation.pptx     # Step-by-step explanation with visuals
+│
+├── 📄 Dashboard_Preview.pdf          # Static dashboard for quick preview
+│
+└── README.md                         # Project documentation (this file)
+⚙️ How to Run the Project
+Option 1: If You Have Tableau Desktop
+Download or clone the repository
+
+Unzip the Dataset/Cleaned_Sales_Data.zip
+
+Open GlobalSalesDashboard.twbx using Tableau Desktop
+
+Interact with the dashboard using filters, hover tooltips, and drill-down features
+
+Option 2: If You Don’t Have Tableau
+Open the Dashboard_Preview.pdf to view a static version of the dashboard
+
+Check out the Project_Presentation.pptx to understand the logic, process, and design steps
+
+A Tableau Public version will be added soon so anyone can explore it online.
+
+🧹 Data Cleaning & Transformation
+The original dataset was raw and unstructured. I performed the following operations in Excel:
+
+Removed duplicate entries
+
+Handled null or missing values
+
+Standardized column names and data types
+
+Created calculated fields (e.g., AOV, Year, Profit Margin)
+
+These transformations made the data analysis-ready and compatible with Tableau’s requirements.
+
+📝 Learnings & Outcomes
+Gained hands-on experience with data wrangling, visual storytelling, and dashboard design
+
+Understood how to translate business questions into visual insights
+
+Improved proficiency in Tableau, data interpretation, and presentation skills
+
+Learned to communicate insights clearly to non-technical stakeholders
+
+🚀 Future Improvements
+Add drill-down capabilities for product-level analysis
+
+Publish a live, shareable dashboard on Tableau Public
+
+Integrate real-time data using Google Sheets API or database connectors
+
+🙌 Acknowledgment
+Thanks to GUVI – HCL for providing the opportunity to work on this real-world analytics challenge and enhance my practical data skills.
